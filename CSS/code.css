@@ -1,0 +1,12 @@
+.tag, code .symbol {
+    color: rgb(248, 104, 181);
+}
+.method {
+    color: rgb(90, 247, 90);
+}
+.text {
+    color: rgb(254, 234, 85);
+}
+.var, code .number {
+    color: rgb(177, 134, 245);
+}

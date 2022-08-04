@@ -1,0 +1,119 @@
+.sec3 {
+    margin-top: 140px;
+}
+.headingS3 {
+    background: rgba(10, 10, 10, 0.8);
+    border-radius: 50px;
+    width: 80%;
+    filter:  drop-shadow(10px 10px 25px rgb(34, 34, 34));
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 5px 15px 15px 15px;
+    margin: -42px auto;
+
+}
+.sec3h2 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 1px 1px 15px #ffce9e;
+
+}
+.tree {
+    position:absolute;
+    z-index: 10;
+}
+.tree1 {
+    left: 206px;
+    top: 1382px;
+    width: 120px;
+    height: 140px;
+
+
+}
+.tree2 {
+    right: 180px;
+    top: 1362px;
+    width: 140px;
+    height: 160px;
+
+}
+.cat {
+    position:absolute;
+    top: 43.5px;
+    width: 80px;
+    height: 60px;
+    right: -10px;
+    z-index: 9;
+}
+
+.catarea {
+    overflow: hidden;
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    top:1420px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content {
+    position: relative;
+    padding-top: 15px;
+    margin-left: -32px;
+
+}
+.balloon {
+    position:absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1540px;
+    width: 100px;
+    height: 120px;
+}
+.arrow {
+    position: absolute;
+    border: solid rgb(141, 113, 152);
+    border-width: 0 12px 12px 0;
+    display: inline-block;
+    padding: 14px;
+    top: 1540px;
+    z-index: 0;
+    left: 48.7%;
+    transform: translateX(-48.7%);
+    filter: drop-shadow(-10px 5px 20px rgb(141, 113, 152));
+    border-radius: 2px;
+    transition: 0s;
+  }
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+.arrow:hover {
+    border: solid rgb(255, 255, 255);
+    filter: drop-shadow(-10px 5px 20px rgb(255, 238, 46));
+    transition: 0.25s;
+    border-width: 0 12px 12px 0;
+}
+.sec3nav {
+    position: relative;
+    text-align: center;
+    margin: 105px auto;
+}
+.sec3nav a {
+    background: rgba(10, 10, 10, 0.8);
+    border-radius: 30px;
+    filter:  drop-shadow(10px 10px 25px rgb(34, 34, 34));
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    font-weight: 600;
+    transition: 0.5s;
+
+
+}
+.sec3nav a:hover {
+    text-shadow: 1px 1px 15px #ffce9e;
+    transition: 0.25s;
+}

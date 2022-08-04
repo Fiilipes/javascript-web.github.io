@@ -1,0 +1,61 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55vh;
+    
+}
+.infinity {
+    display: flex;
+}
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 -7.5px;
+}
+.circle span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+
+}
+.circle span::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: calc(50% - 7.5px);
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 238, 46);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(255, 238, 46),
+    0 0 20px rgb(255, 238, 46),
+    0 0 40px rgb(255, 238, 46),
+    0 0 60px rgb(255, 238, 46),
+    0 0 80px rgb(255, 238, 46),
+    0 0 100px rgb(255, 238, 46);
+    transform: scale(0.1);
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * var(--i))
+    ;
+}
+@keyframes animate 
+{
+0% {
+    transform: scale(1);
+}
+50%,100% {
+    transform: scale(0.1)
+}
+}
+
+.circle:nth-child(2) {
+    transform: rotate(-180deg);
+}
+.circle:nth-child(2) span::before {
+    animation-delay: calc(-0.1s * var(--i));
+}

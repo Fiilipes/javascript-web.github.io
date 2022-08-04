@@ -1,0 +1,44 @@
+
+.main {
+    background: rgba(8, 8, 8, 0.78);
+    border-radius: 50px;
+    width: 90%;
+    margin: 0px auto 160px auto;
+    filter:  drop-shadow(10px 10px 25px rgb(34, 34, 34));
+    backdrop-filter: blur(10px);
+    text-align: center;
+    height: 620px;
+    padding: 15px;
+}
+.vofi {
+    position: absolute;
+    top: 35px;
+    left: 2.5%;
+    width: 28px;
+    height: 34px;
+}
+
+.javascriptText {
+    font-size: 40px;
+    color: rgb(255, 238, 46);
+    font-weight: 700;
+}
+.firstNav {
+    background: #222;
+    padding: 20px 25px;
+    border-radius: 35px;
+    transition: 0.75s;
+    filter:  drop-shadow(15px 15px 10px rgba(17, 17, 17, 0.46));
+
+    
+
+}
+.firstNav:hover {
+    transition: 0.25s;
+    padding: 25px 30px;
+    color: rgb(255, 242, 105);
+    text-shadow: 1px 1px 10px rgb(254, 241, 104),
+    2px 2px 20px rgb(255, 219, 60);
+    font-size: 17px;
+}
+

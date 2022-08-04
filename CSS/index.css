@@ -1,0 +1,73 @@
+* {
+    scroll-behavior: smooth;
+    font-family: Montserrat, sans-serif;
+    overscroll-behavior: contain ;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type:none ;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.stop-scrolling {
+    height: 100vh;
+    overflow: hidden;
+}
+h1 {
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 1px 1px 15px #ffce9e;
+}
+.mainH2 {
+    font-size: 18px;
+    color: #ababab;
+    margin-top: -25px;
+}
+.value1 {
+    position: fixed;
+    background: #111;
+    border: 2px solid rgb(255, 238, 46);
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    right: 0;
+    top: -16px;
+    cursor: default;
+}
+.value2 {
+    position: fixed;
+    background: #111;
+    border: 2px solid rgb(255, 238, 46);
+    padding: 15px;
+    border-bottom-right-radius: 20px;
+    left: 0;
+    top: -16px;
+    cursor: default;
+}
+.adress {
+    position: fixed;
+    color: #111;
+    font-weight: 700;
+    padding: 15px;
+    border-bottom-right-radius: 20px;
+    right: -8px;
+    top: 28px;
+    cursor: default;
+    z-index: 100;
+}
+.clickCircle {
+    position: fixed;
+    right: 18px;
+    top: 90px;
+    background: rgb(255, 238, 46);
+    filter: drop-shadow(1px 1px 15px #444);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    opacity: 0;
+}
+.center {
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+.content {
+    color: red;
+}
+.errorContent {
+    position: absolute;
+    left: 5000px;
+}

@@ -1,0 +1,135 @@
+.sec2 {
+    text-align: center;
+    margin: 0px auto;
+    margin-right: 40px;
+
+
+}
+.sec2 nav {
+    margin-top: 50px;
+    padding-top: 25px;
+}
+.sec2 nav li{
+    display: inline-block;
+}
+.sec2 nav li a {
+    color: #111;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    margin: 20px;
+}
+.activeSec2 {
+    font-size: 20px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 2px;
+}
+.activeSec2::after {
+    content: "";
+    position: absolute;
+    left: 49.18%;
+    transform: translateX(-49.18%);
+    top: 890px;
+    width: 74px;
+    height: 1px;
+    background: #111;
+}
+
+.sec2ul2 {
+    margin-top: 35px;
+}
+.sec2ul2 li {
+    display: inline-block;
+    vertical-align: top;
+    filter: drop-shadow(10px 10px 25px rgba(51, 51, 51, 0.35));
+    transition: 1s;
+
+
+
+}
+.sec2ul2 li a {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    background: #222;
+    width: 380px;
+    border-radius: 50px;
+    height: 210px;
+    margin-top: 40px;
+    /*margin-left: 55px;
+    margin-right: 55px;*/
+
+    border: 2px solid rgb(255, 238, 46);
+}
+.sec2ul2 li:nth-child(odd) a {
+    margin-left: 85px;
+    margin-right: 25px;
+}
+
+.sec2ul2 li:nth-child(even) a {
+    margin-left: 25px;
+    margin-right: 85px;
+}
+
+
+.sec2 h2 {
+    margin-top: 45px;
+}
+h3 {
+    font-size: 14px;
+    color: rgb(197, 197, 197);
+    margin-top: -15px;
+}
+.sec2 .number {
+    font-size: 70px;
+    margin-top: 0px;
+    transition: 1s;
+}
+.sec2ul2 li a:hover .number {
+    color: rgb(255, 242, 105);
+    text-shadow: 1px 1px 10px rgb(254, 241, 104),
+    2px 2px 20px rgb(255, 219, 60);
+    transition: 0.25s;
+
+    ;
+}
+
+/* .sec2ul2 li:nth-child(1):hover .number1 {
+    color:#ed9eff ;
+    text-shadow: 1px 1px 10px #ed9eff,
+    2px 2px 50px #fa67ff
+    ;
+    transition: 0.25s;
+}
+
+.sec2ul2 li:nth-child(2):hover .number2 {
+    color:#ffce9e ;
+    text-shadow: 1px 1px 10px #ffce9e,
+    2px 2px 50px #ffb367
+    ;
+    transition: 0.25s;
+
+}
+.sec2ul2 li:nth-child(3):hover .number3 {
+    color:#d774f4 ;
+    text-shadow: 1px 1px 10px #d774f4,
+    2px 2px 50px #d060f1
+    ;
+    transition: 0.25s;
+
+}
+.sec2ul2 li:nth-child(4):hover .number4 {
+    color:#ffa3ac ;
+    text-shadow: 1px 1px 10px #ffa3ac,
+    2px 2px 50px #ff919c
+    ;
+    transition: 0.25s;
+
+} */
+.sec2ul2 li:hover {
+    filter: drop-shadow(10px 10px 25px rgba(51, 51, 51, 0.75));
+    transition: 0.5s;
+}
+.sec3point {
+    position: absolute;
+    top: 1240px;
+}
